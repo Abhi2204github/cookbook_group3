@@ -1,0 +1,22 @@
+/* Bootstrap box-sizing */
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.heading h1{
+    color: #5F2D71;
+    text-align: center;
+}
+
+.img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+.left-content{
+    padding-left:300px;
+}
+
+.btn btn-primary{
+    color: #5F2D71;
+}
