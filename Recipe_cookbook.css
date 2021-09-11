@@ -64,13 +64,18 @@
     cursor: pointer;
 }
 
-
-
-
 /*main*/
 /* Bootstrap box-sizing */
 .selector-for-some-widget {
     box-sizing: content-box;
+}
+
+.heading{
+  margin-top: 10rem;
+}
+
+.intruction{
+  padding-top: -3rem;
 }
 
 .logo_img{
@@ -89,7 +94,9 @@
 
 .ingredients_table{
     border: none;
+    align-items: flex-start;
 }
+
 
 .recipe_img{
     width: 50%;
@@ -101,9 +108,14 @@
     text-align: center;
 }
 
-.heading h5{
+.align-items-center{
+  color: #fa8622;
+}
+
+.intruction h3{
     color: #fa8622;
     text-align: center;
+    margin-top: 0rem;
 }
 
 .img-thumbnail{
@@ -115,12 +127,65 @@
     padding-left:300px;
 }
 
-#contactform .btn .btn-search .pull-center .col .text-center{
+/*#contactform .btn .btn-search .pull-center .col .text-center{
     color:#fa8622;
     background-color: #5F2D71 ;
     border-color: #5F2D71;
     
+}*/
+
+#contactform .btn-search {
+  color: #921303;
+  border: 2px solid #600083;
+  background-color: #600083;
+  color: #fff;
+  font-weight: 900;
+  border-radius: 60px;
+
+} 
+
+#contactform .btn-search:hover {
+  color: #af1602;
+  border: 2px solid #600083;
+  background-color: #eec6a3;
+  border-radius: 20px;
+  transition: 0.8s;
+  cursor: pointer;
 }
+
+#contactform .btn-1 {
+  color: #921303;
+  border: 2px solid #600083;
+  background-color: #600083;
+  color: #fff;
+  font-weight: 900;
+  height: 40px;
+  width: 140px;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  letter-spacing: 0.2rem;
+  
+}
+
+#contactform .btn-1:hover {
+  color: #af1602;
+  border: 2px solid #600083;
+  background-color: #eec6a3;
+  border-radius: 20px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+#contactform .search {
+  height: 40px;
+  width: 230px;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid #5f2d71;
+  font-size: 12px;
+  margin-right: -35px;
+}
+
 
 /* FOOTER */
 
